@@ -1,9 +1,26 @@
 <!-- templates/myapp/about.html -->
 {% extends 'base.html' %}
+{% load static %}
 {% block title %}About{% endblock %}
 {% block content %}
-<div>
-    <h2 class="welcome_text">About Us</h2>
-    <p class="welcome_text">This is the about page.</p>
-</div>
+<div id="about_me">
+    <h3>Aspiring Software Developer with a Strong Foundation in Python, Jinja, Flask, Django, SQL, Git and REST API</h3>
+    <p>I am an aspiring software developer with a background in business, sales, and hospitality, now fully committed to launching my career in IT.</p>
+
+    <h2><img src="{%static 'images/terminal.svg'%}" alt="terminal"> Passionate Python Programmer:</h2>
+    <p>My journey into programming began with a deep curiosity about technology, which quickly turned into a passion. I have completed the Education Program for Acquiring Partial Qualification as a Python Developer at Algebra University College, where I gained solid experience in Python programming. Additionally, I’ve completed The Complete SQL Bootcamp (PostgreSQL) and The Git & GitHub Bootcamp on Udemy, further strengthening my technical skills.</p>
+
+    <h2> <img src="{%static 'images/globe2.svg'%}" alt="globe"> Web Development and API Skills:</h2>
+    <p>I am proficient in Python and have hands-on experience with web development using HTML, CSS, and Jinja. My skills extend to building web applications with Flask, Djando and developing REST APIs, allowing me to create dynamic, responsive, and data-driven applications.</p>
+    <h2> <img src="{%static 'images/lightbulb.svg'%}" alt="lightbulb"> Eager to Learn and Grow in IT:</h2>
+    <p>Although I am at the beginning of my IT career, I bring a high level of enthusiasm, dedication, and a strong foundation in programming. I am actively seeking opportunities to apply my skills, learn from experienced developers, and contribute to meaningful projects.</p>
+
+    <h2> <img src="{%static 'images/briefcase.svg'%}" alt="briefcase"> Transferable Skills from Business and Sales:</h2>
+    <p>My previous experience in business and sales has equipped me with strong problem-solving abilities, a results-oriented mindset, and the capacity to work effectively in team environments. These skills are highly transferable to the IT field, where I am eager to apply them in a technical context.</p>
+
+    <p>I am highly motivated to begin my career in software development and am excited about the opportunity to contribute to a team where I can continue to grow and develop my skills.</p>
+</div>   
+
+<button class="btn btn-primary" type="button">Download CV</button>
+   
 {% endblock %}

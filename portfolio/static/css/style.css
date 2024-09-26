@@ -35,3 +35,22 @@ body {
 #nav-link_3:hover {
     color: #B8001F;
 }
+
+#nav-link_1, #nav-link_2, #nav-link_3, #about_me {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#my_photo {
+    border-radius: 15%; /* Okrugli okvir */
+    object-fit: cover; /* Zadržavanje proporcija slike unutar okvira */
+}
+
+.btn-primary{
+    background-color: #B8001F;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #384B70;
+}
+
