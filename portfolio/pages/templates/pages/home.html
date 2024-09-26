@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Site</title>
+    <link rel="icon" href="{% static 'images/Antonio Leskur logo.svg' %}" type="image/x-icon">
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Your custom CSS -->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    
+    <div class="centered-div">
+        <div class="image_class">
+            <img src="{% static 'images/Antonio Leskur-01.svg' %}" alt="Logo" class="img-fluid">
+        </div>
+    <div class="container">
+        <header class="d-flex justify-content-center py-3">
+          <ul class="nav nav-pills">
+            <li class="nav-item"><a href="{% url 'about' %}" class="nav-link" id="nav-link_1">About</a></li>
+            <li class="nav-item"><a href="{% url 'work' %}" class="nav-link" id="nav-link_2">Work</a></li>
+            <li class="nav-item"><a href="{% url 'contact' %}" class="nav-link" id="nav-link_3">Contact</a></li>
+          </ul>
+        </header>
+      </div>
+      </div>
+    
+    <footer>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,37 @@
+body {
+    background-color: #d9d9d9;
+}
+
+.centered-div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    width: 700px; /* Adjust the width as needed */
+}
+
+
+.nav-link {
+    font-size: 35px;
+    color: #FCFAEE;
+}
+
+
+#nav-link_1:hover {
+    color: #384B70;
+}
+
+#nav-link_2:hover {
+    color: #507687;
+}
+
+#nav-link_3:hover {
+    color: #B8001F;
+}
