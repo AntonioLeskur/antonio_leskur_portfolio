@@ -10,7 +10,6 @@ body {
   }
 
 
-
 .img-fluid {
     max-width: 100%;
     height: auto;
@@ -54,3 +53,7 @@ body {
     background-color: #384B70;
 }
 
+.icon-size {
+    width: 32px; /* Promijenite širinu po želji */
+    height: 32px; /* Promijenite visinu po želji */
+}
