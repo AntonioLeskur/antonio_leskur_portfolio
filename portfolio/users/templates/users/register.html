@@ -1,0 +1,17 @@
+<!-- templates/myapp/about.html -->
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Classified{% endblock %}
+{% block content %}
+    <h1>Classified</h1>
+    <form action="/users/register/" method="POST">
+        {% csrf_token %}
+        {{form}}
+        <button>Submit</button>
+    </form>
+    
+
+    
+
+
+{% endblock %}

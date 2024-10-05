@@ -35,7 +35,14 @@ body {
     color: #B8001F;
 }
 
-#nav-link_1, #nav-link_2, #nav-link_3, #about_me {
+#nav-link_4:hover {
+    color: #B8001F;
+    border: 1px solid #B8001F;
+    padding: 0px;
+    margin: 0px;
+}
+
+#nav-link_1, #nav-link_2, #nav-link_3, #nav-link_4, #about_me {
     font-family: 'Montserrat', sans-serif;
 }
 
