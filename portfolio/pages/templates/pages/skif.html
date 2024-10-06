@@ -1,0 +1,15 @@
+<!-- templates/myapp/about.html -->
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}SKIF{% endblock %}
+{% block content %}
+    <h1>Classified</h1>
+    
+    <p>UFO content</p>
+
+    <form action="/users/logout/" method="POST">
+        {% csrf_token %}
+        <button>Logout</button>
+    </form>
+    
+{% endblock %}

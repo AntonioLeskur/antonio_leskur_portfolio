@@ -10,7 +10,6 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.1/ref/settings/
 """
 
-import os
 from pathlib import Path
 #import os
 
@@ -30,6 +29,8 @@ SECRET_KEY = 'django-insecure-oqp(2*ymlah=9oymp@zn-guay=nt-i9p-iqa7m6x@rs3mq!%z3
 DEBUG = True
 
 ALLOWED_HOSTS = []
+
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 
 # Application definition
