@@ -1,5 +1,6 @@
 from django.shortcuts import render, redirect
 from django.core.mail import send_mail
+from django.conf import settings
 from django.contrib.auth.decorators import login_required
 from . import forms
 
@@ -15,6 +16,17 @@ def contact(request):
 		if form.is_valid():
 			massege = form.save(commit=False)
 			massege.save()
+			your_email = form.cleaned_data['your_email']
+			title = form.cleaned_data['title']
+			message = form.cleaned_data['message']
+			send_mail(
+			f'PORTFOLIO: {title}',
+			f'From: {your_email}\n\n{message}',
+			'pythonmailtest23@gmail.com',
+			['antonioleskur93@gmail.com'],
+			fail_silently=False,
+		)
+			
 			return redirect('/')
 	else:
 		form = forms.ContactForm()
