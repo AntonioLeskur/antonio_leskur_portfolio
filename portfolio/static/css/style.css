@@ -61,6 +61,26 @@ body {
 }
 
 .icon-size {
-    width: 32px; /* Promijenite širinu po želji */
-    height: 32px; /* Promijenite visinu po želji */
+    width: 40px; /* Promijenite širinu po želji */
+    height: 40px; /* Promijenite visinu po želji */
 }
+
+.already_account {
+    font-size: 20px;
+    color: #507687;
+}
+
+.contact_me_photo {
+    border-radius: 25%; /* Okrugli okvir */
+    height: 500px; /* Promijenite visinu po želji */	
+}
+
+.btn-outline-custom {
+    color: #B8001F;
+    border-color: #B8001F;
+  }
+  .btn-outline-custom:hover {
+    color: #fff;
+    background-color: #384B70;
+    border-color: #384B70;
+  }
