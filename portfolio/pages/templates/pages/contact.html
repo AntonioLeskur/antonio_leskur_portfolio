@@ -14,8 +14,12 @@
 
               <h2 class="text-center fw-bold mb-3 mx-1 mx-md-4 mt-4">Contact Me</h2>
               <div class="text-center fw-bold mb-3 mx-1 mx-md-2 mt-2">
-              <a class="text-body-secondary mx-1" href="https://www.linkedin.com/in/antonio-leskur-250a87283/" target="_blank" rel="noopener noreferrer"><img src="{%static 'images/linkedin.svg'%}" alt="linkedin icon" class="icon-size"></a>
-              <a class="text-body-secondary mx-1" href="https://github.com/AntonioLeskur" target="_blank" rel="noopener noreferrer"><img src="{%static 'images/github.svg'%}" alt="GitHub icon" class="icon-size"></a>
+                <a class="text-body-secondary mx-1" href="https://www.linkedin.com/in/antonio-leskur-250a87283/" target="_blank" rel="noopener noreferrer">
+                  <img src="{% static 'images/linkedin.svg' %}" alt="linkedin icon" class="icon-size">
+                </a>
+                <a class="text-body-secondary mx-1" href="https://github.com/AntonioLeskur" target="_blank" rel="noopener noreferrer">
+                  <img src="{% static 'images/github.svg' %}" alt="GitHub icon" class="icon-size">
+                </a>
               </div>
               <form class="mx-1 mx-md-4" action="{% url 'contact' %}" method="POST">
                 {% csrf_token %}
@@ -42,7 +46,7 @@
 
             </div>
             <div class="col-md-10 col-lg-6 col-xl-7 d-flex align-items-center order-1 order-lg-2">
-              <img class="contact_me_photo" src="{% static 'images/ufo_abduction.jpg' %}" class="img-fluid" alt="Contact image">
+              <img class="contact_me_photo d-none d-lg-block" src="{% static 'images/ufo_abduction.jpg' %}" class="img-fluid" alt="Contact image">
             </div>
           </div>
         </div>

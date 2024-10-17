@@ -4,48 +4,60 @@
 {% block title %}About{% endblock %}
 {% block content %}
 
-<div class="my-3 jumbotron-bg">
+<div class="my-0 jumbotron-bg-1" id="about_me">
 <div class="p-5 text-center bg-body-tertiary">
     <div class="container-fluid py-5">
-    <h1 class="text-body-emphasis">Full-width jumbotron</h1>
+    <h1 class="text-body-emphasis">Who am I?</h1>
     <p class="col-lg-8 mx-auto lead">
-        This takes the basic jumbotron above and makes its background edge-to-edge with a <code>.container</code> inside to align content. Similar to above, it's been recreated with built-in grid and utility classes.
+        I'm Antonio Leskur, a highly motivated and passionate Python developer eagerly seeking my first professional opportunity.
+        With a diverse background in hospitality, tourism, and sales, I bring a unique perspective to problem-solving and software development.
     </p>
     </div>
 </div>
 </div>
 
-<hr class="featurette-divider">
 
-<div class="my-3 jumbotron-bg">
+<div class="my-0 jumbotron-bg-2" id="about_me">
     <div class="p-5 text-center bg-body-tertiary ">
         <div class="container-fluid py-5">
-        <h1 class="text-body-emphasis">Full-width jumbotron</h1>
+        <h1 class="text-body-emphasis">Why I love what I do</h1>
         <p class="col-lg-8 mx-auto lead">
-            This takes the basic jumbotron above and makes its background edge-to-edge with a <code>.container</code> inside to align content. Similar to above, it's been recreated with built-in grid and utility classes.
+            Programming allows me to combine my creativity with analytical thinking. I'm thrilled by the possibility of creating solutions that can positively impact businesses and people's lives. Transitioning into the world of software development two years ago was challenging but an incredibly fulfilling step in my career.
         </p>
         </div>
     </div>
     </div>
 
-<div id="about_me">
-    <h3>Aspiring Software Developer with a Strong Foundation in Python, Jinja, Flask, Django, SQL, Git and REST API</h3>
-    <p>I am an aspiring software developer with a background in business, sales, and hospitality, now fully committed to launching my career in IT.</p>
 
-    <h2><img src="{%static 'images/terminal.svg'%}" alt="terminal"> Passionate Python Programmer:</h2>
-    <p>My journey into programming began with a deep curiosity about technology, which quickly turned into a passion. I have completed the Education Program for Acquiring Partial Qualification as a Python Developer at Algebra University College, where I gained solid experience in Python programming. Additionally, I’ve completed The Complete SQL Bootcamp (PostgreSQL) and The Git & GitHub Bootcamp on Udemy, further strengthening my technical skills.</p>
+<div class="my-0 jumbotron-bg-3" id="about_me">
+    <div class="p-5 text-center bg-body-tertiary">
+        <div class="container-fluid py-5">
+        <h1 class="text-body-emphasis">Specialization</h1>
+        <p class="col-lg-8 mx-auto lead">
+            I focus on developing web applications using Python, with an emphasis on Flask and Django frameworks. My areas of interest also include working with databases (SQL, PostgreSQL), RESTful APIs, and front-end technologies (HTML, CSS).
+        </p>
+        </div>
+    </div>
+    </div>
+    
+    
+    <div class="my-0 jumbotron-bg-4" id="about_me">
+        <div class="p-5 text-center bg-body-tertiary ">
+            <div class="container-fluid py-5">
+            <h1 class="text-body-emphasis">Goals and ambitions</h1>
+            <p class="col-lg-8 mx-auto lead">
+                
+            Deepening my knowledge in Python, focusing on advanced concepts in Flask and Django. <br>
+            Actively participating in open-source projects to contribute to the community and learn from experienced developers.<br>
+            Perfecting my skills in RESTful API development.<br>
+            Continuously learning new technologies and staying up-to-date with industry trends.<br>
+            Developing complex web applications that solve real business challenges.<br>
+                
+            </p>
+            </div>
+            <button class="btn btn-primary" type="button"><a href="{% static 'files/Antonio_Leskur_CV.pdf' %}" download class="btn btn-primary">Download CV</a></button>
+        </div>
+        </div>
+    
 
-    <h2> <img src="{%static 'images/globe2.svg'%}" alt="globe"> Web Development and API Skills:</h2>
-    <p>I am proficient in Python and have hands-on experience with web development using HTML, CSS, and Jinja. My skills extend to building web applications with Flask, Djando and developing REST APIs, allowing me to create dynamic, responsive, and data-driven applications.</p>
-    <h2> <img src="{%static 'images/lightbulb.svg'%}" alt="lightbulb"> Eager to Learn and Grow in IT:</h2>
-    <p>Although I am at the beginning of my IT career, I bring a high level of enthusiasm, dedication, and a strong foundation in programming. I am actively seeking opportunities to apply my skills, learn from experienced developers, and contribute to meaningful projects.</p>
-
-    <h2> <img src="{%static 'images/briefcase.svg'%}" alt="briefcase"> Transferable Skills from Business and Sales:</h2>
-    <p>My previous experience in business and sales has equipped me with strong problem-solving abilities, a results-oriented mindset, and the capacity to work effectively in team environments. These skills are highly transferable to the IT field, where I am eager to apply them in a technical context.</p>
-
-    <p>I am highly motivated to begin my career in software development and am excited about the opportunity to contribute to a team where I can continue to grow and develop my skills.</p>
-</div>   
-
-<button class="btn btn-primary" type="button"><a href="{% static 'files/Antonio_Leskur_CV.pdf' %}" download class="btn btn-primary">Download CV</a></button>
-   
 {% endblock %}
