@@ -200,10 +200,16 @@ color: #EAD8B1;
   max-width: 600px; 
 }
 
-.video-description {
+.video-description-1 {
   margin-top: 10px; 
-  font-size: 14px; 
-  color: #EAD8B1; 
+  font-size: 18px; 
+  color: #000000; 
+}
+
+.video-description-2 {
+  margin-top: 10px; 
+  font-size: 18px; 
+  color: #ffffff; 
 }
 
 .truth {
