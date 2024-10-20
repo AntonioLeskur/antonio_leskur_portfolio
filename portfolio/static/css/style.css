@@ -21,7 +21,7 @@ body, html {
 .img-fluid {
     max-width: 100%;
     height: auto;
-    width: 700px; /* Adjust the width as needed */
+    width: 700px; 
 }
 
 
@@ -57,8 +57,8 @@ body, html {
 
 
 #my_photo {
-    border-radius: 15%; /* Okrugli okvir */
-    object-fit: cover; /* Zadržavanje proporcija slike unutar okvira */
+    border-radius: 15%; 
+    object-fit: cover; 
 }
 
 .btn-primary{
@@ -71,8 +71,8 @@ body, html {
 }
 
 .icon-size {
-    width: 40px; /* Promijenite širinu po želji */
-    height: 40px; /* Promijenite visinu po želji */
+    width: 40px; 
+    height: 40px; 
 }
 
 .already_account {
@@ -81,8 +81,8 @@ body, html {
 }
 
 .contact_me_photo {
-    border-radius: 25%; /* Okrugli okvir */
-    height: 500px; /* Promijenite visinu po želji */	
+    border-radius: 25%;
+    height: 500px; 
 }
 
 .btn-outline-custom {
@@ -97,7 +97,7 @@ border-color: #384B70;
 }
 
 .navbar-custom {
-    background-color: #d9d9d9; /* Promijenite boju po želji */
+    background-color: #d9d9d9; 
 }
 
 .jumbotron-bg-1, .jumbotron-bg-3 {
@@ -187,27 +187,27 @@ color: #EAD8B1;
   }
 
   .no-underline {
-    text-decoration: none; /* Uklanja podvlačenje */
-    color: inherit; /* Zadržava boju teksta */
+    text-decoration: none; 
+    color: inherit; 
 }
 
 .no-underline:hover {
-  text-decoration: none; /* Uklanja podvlačenje pri hoveru */
+  text-decoration: none; 
 }
 
 .video_container {
-  margin: 0 auto; /* Centriranje kontejnera */
-  max-width: 600px; /* Maksimalna širina kontejnera */
+  margin: 0 auto; 
+  max-width: 600px; 
 }
 
 .video-description {
-  margin-top: 10px; /* Margina iznad opisa */
-  font-size: 14px; /* Veličina fonta za opis */
-  color: #EAD8B1; /* Boja fonta za opis */
+  margin-top: 10px; 
+  font-size: 14px; 
+  color: #EAD8B1; 
 }
 
 .truth {
   background-image: url("../images/ufohead.jpg");
-  color: #EAD8B1;
+  color: #fec45f;
   font-weight: 500;
 }
