@@ -186,4 +186,28 @@ color: #EAD8B1;
     
   }
 
- 
+  .no-underline {
+    text-decoration: none; /* Uklanja podvlačenje */
+    color: inherit; /* Zadržava boju teksta */
+}
+
+.no-underline:hover {
+  text-decoration: none; /* Uklanja podvlačenje pri hoveru */
+}
+
+.video_container {
+  margin: 0 auto; /* Centriranje kontejnera */
+  max-width: 600px; /* Maksimalna širina kontejnera */
+}
+
+.video-description {
+  margin-top: 10px; /* Margina iznad opisa */
+  font-size: 14px; /* Veličina fonta za opis */
+  color: #EAD8B1; /* Boja fonta za opis */
+}
+
+.truth {
+  background-image: url("../images/ufohead.jpg");
+  color: #EAD8B1;
+  font-weight: 500;
+}

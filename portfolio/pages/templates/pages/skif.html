@@ -1,15 +1,42 @@
-<!-- templates/myapp/about.html -->
 {% extends 'base.html' %}
 {% load static %}
 {% block title %}SKIF{% endblock %}
 {% block content %}
-    <h1>Classified</h1>
-    
-    <p>UFO content</p>
+<div id="about_me" class="truth p-4 p-md-5 mb-0 rounded text-body-emphasis bg-body-secondary d-flex justify-content-center align-items-center">
+    <div class="col-lg-6 px-0 text-center">
+      <h1 class="display-4 fst-italic">The truth is out there!</h1>
+      <p class="lead my-3">The universe is far too vast for us to be the only intelligent life. To believe otherwise is to underestimate its endless possibilities.</p>
+    </div>
+</div>
 
-    <form action="/users/logout/" method="POST">
+<div class="my-0 jumbotron-bg-1" id="about_me">
+    <div class="video_container text-center">
+        <h2>Government Breaks Silence: Strange Encounters</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/hXO_RwR1UA8?si=Pmqa73BwFDBJPBZl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p id="about_me" class="video-description">In 2021, the US government passed legislation mandating an official investigation into UFOs. This provocative series unspools the history leading up to this momentous change and reports on recent developments...</p>
+    </div>
+    <hr>
+    <div class="video_container text-center">
+        <h2>The UFO Phenomenon 2021</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/sm6AL5lA4Zc?si=_ms9hEp_vaL0kg44" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p id="about_me" class="video-description">It is now beyond doubt that strange, anomalous objects filling our skies and caught on camera are the real deal. Even the Pentagon admits it’s true...</p>
+    </div>
+    <hr>
+    <div class="video_container text-center">
+        <h2>Joe Rogan Experience #1315 - Bob Lazar & Jeremy Corbell</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/BEWz4SXfyCQ?si=ORsymQGNOPBFiSQk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p id="about_me" class="video-description">Joe Rogan interviews Bob Lazar and Jeremy Corbell about UFOs and Area 51.</p>
+    </div>
+    <hr>
+    <div class="video_container text-center">
+        <h2>Compilation: UFOs & Aliens (The Why Files)</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/4XP_m5-ULnA?si=eOaxKl9TEHcFNWp6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p id="about_me" class="video-description">A compilation of UFO and alien sightings and theories.</p>
+    </div>
+</div>
+
+    <form action="/users/logout/" method="POST" class="text-center p-4 bg-light rounded shadow">
         {% csrf_token %}
-        <button>Logout</button>
+        <button type="submit" class="btn btn-primary">Logout</button>
     </form>
-    
 {% endblock %}
