@@ -1,0 +1,219 @@
+body {
+    background-color: #d9d9d9;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.centered-div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    width: 700px; 
+}
+
+
+.nav-link {
+    font-size: 35px;
+    color: #FCFAEE;
+    font-weight: 500;
+}
+
+
+#nav-link_1:hover {
+    color: #384B70;
+}
+
+#nav-link_2:hover {
+    color: #507687;
+}
+
+#nav-link_3:hover {
+    color: #B8001F;
+}
+
+#nav-link_4:hover {
+    color: #B8001F;
+    border: 1px solid #B8001F;
+    padding: 0px;
+    margin: 0px;
+}
+
+#nav-link_1, #nav-link_2, #nav-link_3, #nav-link_4, #about_me {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+#my_photo {
+    border-radius: 15%; 
+    object-fit: cover; 
+}
+
+.btn-primary{
+    background-color: #B8001F;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #384B70;
+}
+
+.icon-size {
+    width: 40px; 
+    height: 40px; 
+}
+
+.already_account {
+    font-size: 20px;
+    color: #507687;
+}
+
+.contact_me_photo {
+    border-radius: 25%;
+    height: 500px; 
+}
+
+.btn-outline-custom {
+    color: #B8001F;
+    border-color: #B8001F;
+  }
+
+.btn-outline-custom:hover {
+color: #fff;
+background-color: #384B70;
+border-color: #384B70;
+}
+
+.navbar-custom {
+    background-color: #d9d9d9; 
+}
+
+.jumbotron-bg-1, .jumbotron-bg-3 {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%23384B70'/%3E%3Ccircle cx='50' cy='50' r='40' fill='none' stroke='%23507687' stroke-width='1' stroke-opacity='0.2'/%3E%3C/svg%3E");
+    color: #d9d9d9;
+  }
+
+.jumbotron-bg-2, .jumbotron-bg-4 {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%23FCFAEE'/%3E%3Cpath d='M0 0l100 100M100 0L0 100' stroke='%23384B70' stroke-width='0.5' stroke-opacity='0.1'/%3E%3C/svg%3E");
+    color: #384B70;
+  }
+
+.jumbotron-bg-2:hover, .jumbotron-bg-4:hover {
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%23FCFAEE'/%3E%3Cpath d='M0 0l100 100M100 0L0 100' stroke='%23384B70' stroke-width='0.5' stroke-opacity='0.1'/%3E%3C/svg%3E");
+color: #B8001F;
+}
+
+.jumbotron-bg-1:hover, .jumbotron-bg-3:hover {
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%23384B70'/%3E%3Ccircle cx='50' cy='50' r='40' fill='none' stroke='%23507687' stroke-width='1' stroke-opacity='0.2'/%3E%3C/svg%3E");
+color: #EAD8B1;
+}
+
+.work-section {
+    margin-bottom: 2rem;
+    overflow: hidden;
+  }
+  
+  .work-section .row {
+    background-color: #384B70;
+    border-radius: 15px;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .work-section .col-md-5,
+  .work-section .col-md-7 {
+    padding: 2rem;
+  }
+  
+  .work-section img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    max-height: 300px;
+    border-radius: 10px;
+  }
+  
+  .work-section .featurette-heading {
+    color: #ffffff;
+    margin-bottom: 1rem;
+  }
+  
+  .work-section .text-body-secondary {
+    color: #b0b0b0;
+  }
+  
+  .work-section .lead {
+    color: #e0e0e0;
+  }
+  
+  @media (max-width: 767px) {
+    .work-section .row {
+      flex-direction: column;
+    }
+    
+    .work-section .col-md-5,
+    .work-section .col-md-7 {
+      width: 100%;
+    }
+    
+    .work-section img {
+      max-height: 200px;
+    }
+  }
+
+  .work-section:hover .row:hover {
+    .work-text {
+      color: #EAD8B1;
+    }
+    background-color: #41557d;
+    border-radius: 15px;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    
+  }
+
+  .no-underline {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+.no-underline:hover {
+  text-decoration: none; 
+}
+
+.video_container {
+  margin: 0 auto; 
+  max-width: 600px; 
+}
+
+.video-description-1 {
+  margin-top: 10px; 
+  font-size: 18px; 
+  color: #000000; 
+}
+
+.video-description-2 {
+  margin-top: 10px; 
+  font-size: 18px; 
+  color: #ffffff; 
+}
+
+.truth {
+  background-image: url("../images/ufohead.jpg");
+  color: #fec45f;
+  font-weight: 500;
+}

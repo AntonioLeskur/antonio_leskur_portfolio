@@ -17,7 +17,7 @@ def contact(request):
 			massege = form.save(commit=False)
 			massege.save()
 			your_email = form.cleaned_data['your_email']
-			title = form.cleaned_data['title']
+			title = form.cleaned_data['subject']
 			message = form.cleaned_data['message']
 			send_mail(
 			f'PORTFOLIO: {title}',
